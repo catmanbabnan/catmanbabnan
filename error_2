@@ -1,0 +1,706 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Command line arguments: -savedatafolder=C:\Users\damia\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Verse.Root:CheckGlobalInit ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+RimWorld 1.3.3200 rev726
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimWorld.VersionControl:LogVersionNumber ()
+Verse.Root:CheckGlobalInit ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+Save data folder overridden to C:\Users\damia\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Verse.GenFilePaths:get_SaveDataFolderPath ()
+Verse.GenFilePaths:FolderUnderSaveData (string)
+Verse.GenFilePaths:get_ConfigFolderPath ()
+Verse.GenFilePaths:get_PrefsFilePath ()
+Verse.Prefs:Init ()
+Verse.Root:CheckGlobalInit ()
+Verse.Root:Start ()
+Verse.Root_Entry:Start ()
+
+RimThreaded 2.6.3.0  is patching methods...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimThreaded.RimThreadedHarmony:.cctor ()
+RimThreaded.RimThreaded:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll ()
+Verse.PlayDataLoader/<>c:<DoPlayLoad>b__4_3 ()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+Verse.Root:Update ()
+Verse.Root_Entry:Update ()
+
+RimThreaded Field Replacements Complete.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimThreaded.RimThreadedHarmony:ApplyFieldReplacements ()
+RimThreaded.RimThreadedHarmony:.cctor ()
+RimThreaded.RimThreaded:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll ()
+Verse.PlayDataLoader/<>c:<DoPlayLoad>b__4_3 ()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+Verse.Root:Update ()
+Verse.Root_Entry:Update ()
+
+RimThreaded patching is complete.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimThreaded.RimThreadedHarmony:.cctor ()
+RimThreaded.RimThreaded:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll ()
+Verse.PlayDataLoader/<>c:<DoPlayLoad>b__4_3 ()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+Verse.Root:Update ()
+Verse.Root_Entry:Update ()
+
+Potential RimThreaded mod conflicts :
+  ---Patch method: RimThreaded.Room_Patch Boolean get_ContainedAndAdjacentThings(Verse.Room, System.Collections.Generic.List`1[Verse.Thing] ByRef)---
+  RimThreaded priority: 0
+  owner: majorhoff.rimthreaded -   priority: 400
+
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+RimThreaded.RimThreadedHarmony:.cctor ()
+RimThreaded.RimThreaded:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll ()
+Verse.PlayDataLoader/<>c:<DoPlayLoad>b__4_3 ()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished ()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent ()
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+Verse.Root:Update ()
+Verse.Root_Entry:Update ()
+
+Loaded file (Scenario) is from version 1.3.3117 rev669, we are running version 1.3.3200 rev726.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+Verse.ScribeMetaHeaderUtility:LoadGameDataHeader (Verse.ScribeMetaHeaderUtility/ScribeHeaderMode,bool)
+Verse.GameDataSaveLoader:TryLoadScenario (string,RimWorld.ScenarioCategory,RimWorld.Scenario&)
+RimWorld.ScenarioFiles:RecacheData ()
+RimWorld.ScenarioLister:RecacheData ()
+RimWorld.ScenarioLister:RecacheIfDirty ()
+RimWorld.ScenarioLister/<ScenariosInCategory>d__2:MoveNext ()
+System.Linq.Enumerable:TryGetFirst<RimWorld.Scenario> (System.Collections.Generic.IEnumerable`1<RimWorld.Scenario>,bool&)
+System.Linq.Enumerable:FirstOrDefault<RimWorld.Scenario> (System.Collections.Generic.IEnumerable`1<RimWorld.Scenario>)
+RimWorld.Page_SelectScenario:EnsureValidSelection ()
+RimWorld.Page_SelectScenario:PreOpen ()
+Verse.WindowStack:Add (Verse.Window)
+RimWorld.MainMenuDrawer/<>c:<DoMainMenuControls>b__17_11 ()
+Verse.ListableOption:DrawOption (UnityEngine.Vector2,single)
+Verse.OptionListingUtility:DrawOptionListing (UnityEngine.Rect,System.Collections.Generic.List`1<Verse.ListableOption>)
+RimWorld.MainMenuDrawer:DoMainMenuControls (UnityEngine.Rect,bool)
+RimWorld.MainMenuDrawer:MainMenuOnGUI ()
+Verse.UIRoot_Entry:DoMainMenu ()
+Verse.UIRoot_Entry:UIRootOnGUI ()
+Verse.Root:OnGUI ()
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - Ludeon.RimWorld.Ideology
+  - majorhoff.rimthreaded
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+Verse.Game:InitNewGame ()
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+(wrapper dynamic-method) Verse.LongEventHandler:Verse.LongEventHandler.RunEventFromAnotherThread_Patch1 (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__27_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+RimThreaded is building new Reservations Dictionary...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimThreaded.ReservationManager_Patch:getReservationTargetDict (Verse.AI.ReservationManager)
+RimThreaded.ReservationManager_Patch:ReleaseAllForTarget (Verse.AI.ReservationManager,Verse.Thing)
+(wrapper dynamic-method) Verse.AI.ReservationManager:Verse.AI.ReservationManager.ReleaseAllForTarget_Patch1 (Verse.AI.ReservationManager,Verse.Thing)
+Verse.Thing:RemoveAllReservationsAndDesignationsOnThis ()
+Verse.Thing:Destroy (Verse.DestroyMode)
+Verse.ThingWithComps:Destroy (Verse.DestroyMode)
+Verse.Building:Destroy (Verse.DestroyMode)
+RimWorld.Mineable:Destroy (Verse.DestroyMode)
+RimThreaded.GenSpawn_Patch:WipeExistingThings (Verse.IntVec3,Verse.Rot4,Verse.BuildableDef,Verse.Map,Verse.DestroyMode)
+(wrapper dynamic-method) Verse.GenSpawn:Verse.GenSpawn.WipeExistingThings_Patch1 (Verse.IntVec3,Verse.Rot4,Verse.BuildableDef,Verse.Map,Verse.DestroyMode)
+Verse.GenSpawn:Spawn (Verse.Thing,Verse.IntVec3,Verse.Map,Verse.Rot4,Verse.WipeMode,bool)
+Verse.GenSpawn:Spawn (Verse.Thing,Verse.IntVec3,Verse.Map,Verse.WipeMode)
+Verse.GenSpawn:Spawn (Verse.ThingDef,Verse.IntVec3,Verse.Map,Verse.WipeMode)
+RimWorld.GenStep_ScatterLumpsMineable:ScatterAt (Verse.IntVec3,Verse.Map,Verse.GenStepParams,int)
+RimWorld.GenStep_ScatterLumpsMineable:Generate (Verse.Map,Verse.GenStepParams)
+RimWorld.GenStep_RocksFromGrid:Generate (Verse.Map,Verse.GenStepParams)
+Verse.MapGenerator:GenerateContentsIntoMap (System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,Verse.Map,int)
+(wrapper dynamic-method) Verse.MapGenerator:Verse.MapGenerator.GenerateMap_Patch1 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>)
+Verse.Game:InitNewGame ()
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+(wrapper dynamic-method) Verse.LongEventHandler:Verse.LongEventHandler.RunEventFromAnotherThread_Patch1 (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__27_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+Tried to queue null region.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Log:ErrorOnce (string,int)
+RimThreaded.Reachability_Patch:QueueNewOpenRegion (Verse.Region,System.Collections.Generic.Queue`1<Verse.Region>,System.Collections.Generic.HashSet`1<Verse.Region>)
+RimThreaded.Reachability_Patch:DetermineStartRegions (Verse.Map,Verse.IntVec3,System.Collections.Generic.List`1<Verse.Region>,Verse.AI.PathGrid,Verse.RegionGrid,System.Collections.Generic.Queue`1<Verse.Region>,System.Collections.Generic.HashSet`1<Verse.Region>)
+RimThreaded.Reachability_Patch:CanReach (Verse.Reachability,bool&,Verse.IntVec3,Verse.LocalTargetInfo,Verse.AI.PathEndMode,Verse.TraverseParms)
+(wrapper dynamic-method) Verse.Reachability:Verse.Reachability.CanReach_Patch1 (Verse.Reachability,Verse.IntVec3,Verse.LocalTargetInfo,Verse.AI.PathEndMode,Verse.TraverseParms)
+RimWorld.RiverMaker:ValidatePassage (Verse.Map)
+RimWorld.GenStep_Terrain:Generate (Verse.Map,Verse.GenStepParams)
+Verse.MapGenerator:GenerateContentsIntoMap (System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,Verse.Map,int)
+(wrapper dynamic-method) Verse.MapGenerator:Verse.MapGenerator.GenerateMap_Patch1 (Verse.IntVec3,RimWorld.Planet.MapParent,Verse.MapGeneratorDef,System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams>,System.Action`1<Verse.Map>)
+Verse.Game:InitNewGame ()
+Verse.Root_Play/<>c:<Start>b__1_2 ()
+(wrapper dynamic-method) Verse.LongEventHandler:Verse.LongEventHandler.RunEventFromAnotherThread_Patch1 (System.Action)
+Verse.LongEventHandler/<>c:<UpdateCurrentAsynchronousEvent>b__27_0 ()
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart ()
+
+RimThreaded is caching Cells...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Message (string)
+RimThreaded.JumboCell:GetAwaitingActionsZoomLevels (System.Collections.Generic.Dictionary`2<Verse.Map, System.Collections.Generic.List`1<System.Collections.Generic.HashSet`1<Verse.IntVec3>[]>>,Verse.Map)
+RimThreaded.JumboCell/<GetClosestActionableLocations>d__14:MoveNext ()
+RimThreaded.WorkGiver_GrowerHarvest_Patch:ClosestLocationReachable (RimWorld.WorkGiver_GrowerHarvest,Verse.Pawn)
+RimThreaded.JobGiver_Work_Patch:TryIssueJobPackage (RimWorld.JobGiver_Work,Verse.AI.ThinkResult&,Verse.Pawn,Verse.AI.JobIssueParams)
+(wrapper dynamic-method) RimWorld.JobGiver_Work:RimWorld.JobGiver_Work.TryIssueJobPackage_Patch1 (RimWorld.JobGiver_Work,Verse.Pawn,Verse.AI.JobIssueParams)
+(wrapper dynamic-method) Verse.AI.ThinkNode_PrioritySorter:Verse.AI.ThinkNode_PrioritySorter.TryIssueJobPackage_Patch0 (Verse.AI.ThinkNode_PrioritySorter,Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Tagger:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Subtree:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Conditional:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+Verse.AI.ThinkNode_Priority:TryIssueJobPackage (Verse.Pawn,Verse.AI.JobIssueParams)
+RimThreaded.Pawn_JobTracker_Patch:DetermineNextJob2 (Verse.AI.Pawn_JobTracker,Verse.ThinkTreeDef&)
+RimThreaded.Pawn_JobTracker_Patch:TryFindAndStartJob (Verse.AI.Pawn_JobTracker)
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.TryFindAndStartJob_Patch1 (Verse.AI.Pawn_JobTracker)
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+RimThreaded.TickList_Patch:NormalThingTick ()
+RimThreaded.RimThreaded:ExecuteTicks ()
+RimThreaded.RimThreaded:ProcessTicks (RimThreaded.RimThreaded/ThreadInfo)
+RimThreaded.RimThreaded:InitializeThread (object)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart (object)
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Alignment was MiddleLeft at end of frame.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Log:ErrorOnce (string,int)
+Verse.Text:StartOfOnGUI ()
+Verse.UIRoot:UIRootOnGUI ()
+RimWorld.UIRoot_Play:UIRootOnGUI ()
+Verse.Root:OnGUI ()
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+First parameter of thread-safe function request was not an action or function
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+RimThreaded.RimThreaded:RespondToSafeFunctionRequests ()
+RimThreaded.RimThreaded:MainThreadWaitLoop (Verse.TickManager)
+RimThreaded.TickManager_Patch:DoSingleTick (Verse.TickManager)
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+Verse.Game:UpdatePlay ()
+Verse.Root_Play:Update ()
+
+Error in lord's preAction: System.InvalidCastException: Specified cast is not valid.
+  at RimThreaded.GUIStyle_Patch.CalcHeight (UnityEngine.GUIStyle __instance, System.Single& __result, UnityEngine.GUIContent content, System.Single width) [0x00066] in <823d1c7eec0147419cb33e0283ea70ea>:0 
+  at (wrapper dynamic-method) UnityEngine.GUIStyle.UnityEngine.GUIStyle.CalcHeight_Patch1(UnityEngine.GUIStyle,UnityEngine.GUIContent,single)
+  at Verse.Text.CalcHeight (System.String text, System.Single width) [0x00015] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.FloatMenuOption.SetSizeMode (Verse.FloatMenuSizeMode newSizeMode) [0x00051] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.FloatMenuOption.set_Label (System.String value) [0x00020] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.FloatMenuOption..ctor (System.String label, System.Action action, Verse.MenuOptionPriority priority, System.Action`1[T] mouseoverGuiAction, Verse.Thing revalidateClickTarget, System.Single extraPartWidth, System.Func`2[T,TResult] extraPartOnGUI, RimWorld.Planet.WorldObject revalidateWorldClickTarget, System.Boolean playSelectionSound, System.Int32 orderInPriority) [0x0001f] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.CaravanArrivalActionUtility+<GetFloatMenuOptions>d__0`1[T].MoveNext () [0x0012b] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.Site+<GetFloatMenuOptions>d__52.MoveNext () [0x000e3] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at System.Collections.Generic.List`1[T].InsertRange (System.Int32 index, System.Collections.Generic.IEnumerable`1[T] collection) [0x000db] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.List`1[T].AddRange (System.Collections.Generic.IEnumerable`1[T] collection) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at RimWorld.Planet.FloatMenuMakerWorld.ChoicesAtFor (System.Int32 tile, RimWorld.Planet.Caravan caravan) [0x00032] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.CaravanExitMapUtility.ExitMapAndCreateCaravan (System.Collections.Generic.IEnumerable`1[T] pawns, RimWorld.Faction faction, System.Int32 exitFromTile, System.Int32 directionTile, System.Int32 destinationTile, System.Boolean sendMessage) [0x00173] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.CaravanFormingUtility.FormAndCreateCaravan (System.Collections.Generic.IEnumerable`1[T] pawns, RimWorld.Faction faction, System.Int32 exitFromTile, System.Int32 directionTile, System.Int32 destinationTile) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.LordJob_FormAndSendCaravan.SendCaravan () [0x00044] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.AI.Group.TransitionAction_Custom.DoAction (Verse.AI.Group.Transition trans) [0x0001c] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.AI.Group.Transition.Execute (Verse.AI.Group.Lord lord) [0x00028] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.AI.Group.Transition:Execute (Verse.AI.Group.Lord)
+Verse.AI.Group.Transition:CheckSignal (Verse.AI.Group.Lord,Verse.AI.Group.TriggerSignal)
+Verse.AI.Group.Lord:CheckTransitionOnSignal (Verse.AI.Group.TriggerSignal)
+Verse.AI.Group.Lord:ReceiveMemo (string)
+RimWorld.GatherAnimalsAndSlavesForCaravanUtility:CheckArrived (Verse.AI.Group.Lord,System.Collections.Generic.List`1<Verse.Pawn>,Verse.IntVec3,string,System.Predicate`1<Verse.Pawn>,System.Predicate`1<Verse.Pawn>)
+RimWorld.LordToil_PrepareCaravan_Leave:LordToilTick ()
+Verse.AI.Group.Lord:LordTick ()
+Verse.AI.Group.LordManager:LordManagerTick ()
+Verse.Map:MapPostTick ()
+RimThreaded.Map_Patch:MapsPostTickPrepare ()
+RimThreaded.RimThreaded:PrepareWorkLists ()
+RimThreaded.RimThreaded:ProcessTicks (RimThreaded.RimThreaded/ThreadInfo)
+RimThreaded.RimThreaded:InitializeThread (object)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart (object)
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Lacey starting job GotoWander (Job_966) A=(98, 0, 156) from JobGiver  while already having job Wait_Wander (Job_965) without a specific job end condition.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+RimThreaded.Pawn_JobTracker_Patch:StartJob (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool)
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.StartJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool)
+RimThreaded.Pawn_JobTracker_Patch:TryFindAndStartJob (Verse.AI.Pawn_JobTracker)
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.TryFindAndStartJob_Patch1 (Verse.AI.Pawn_JobTracker)
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+RimThreaded.TickList_Patch:NormalThingTick ()
+RimThreaded.RimThreaded:ExecuteTicks ()
+RimThreaded.RimThreaded:ProcessTicks (RimThreaded.RimThreaded/ThreadInfo)
+RimThreaded.RimThreaded:InitializeThread (object)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart (object)
+
+Lacey starting job Wait_Wander (Job_978) from JobGiver  while already having job Wait_Wander (Job_977) without a specific job end condition.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+RimThreaded.Pawn_JobTracker_Patch:StartJob (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool)
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.StartJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool)
+RimThreaded.Pawn_JobTracker_Patch:TryFindAndStartJob (Verse.AI.Pawn_JobTracker)
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.TryFindAndStartJob_Patch1 (Verse.AI.Pawn_JobTracker)
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+RimThreaded.TickList_Patch:NormalThingTick ()
+RimThreaded.RimThreaded:ExecuteTicks ()
+RimThreaded.RimThreaded:ProcessTicks (RimThreaded.RimThreaded/ThreadInfo)
+RimThreaded.RimThreaded:InitializeThread (object)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart (object)
+
+First parameter of thread-safe function request was not an action or function
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+RimThreaded.RimThreaded:RespondToSafeFunctionRequests ()
+RimThreaded.RimThreaded:MainThreadWaitLoop (Verse.TickManager)
+RimThreaded.TickManager_Patch:DoSingleTick (Verse.TickManager)
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+Verse.Game:UpdatePlay ()
+Verse.Root_Play:Update ()
+
+Error in lord's preAction: System.InvalidCastException: Specified cast is not valid.
+  at RimThreaded.GUIStyle_Patch.CalcHeight (UnityEngine.GUIStyle __instance, System.Single& __result, UnityEngine.GUIContent content, System.Single width) [0x00066] in <823d1c7eec0147419cb33e0283ea70ea>:0 
+  at (wrapper dynamic-method) UnityEngine.GUIStyle.UnityEngine.GUIStyle.CalcHeight_Patch1(UnityEngine.GUIStyle,UnityEngine.GUIContent,single)
+  at Verse.Text.CalcHeight (System.String text, System.Single width) [0x00015] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.FloatMenuOption.SetSizeMode (Verse.FloatMenuSizeMode newSizeMode) [0x00051] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.FloatMenuOption.set_Label (System.String value) [0x00020] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.FloatMenuOption..ctor (System.String label, System.Action action, Verse.MenuOptionPriority priority, System.Action`1[T] mouseoverGuiAction, Verse.Thing revalidateClickTarget, System.Single extraPartWidth, System.Func`2[T,TResult] extraPartOnGUI, RimWorld.Planet.WorldObject revalidateWorldClickTarget, System.Boolean playSelectionSound, System.Int32 orderInPriority) [0x0001f] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.CaravanArrivalActionUtility+<GetFloatMenuOptions>d__0`1[T].MoveNext () [0x0012b] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.Site+<GetFloatMenuOptions>d__52.MoveNext () [0x000e3] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at System.Collections.Generic.List`1[T].InsertRange (System.Int32 index, System.Collections.Generic.IEnumerable`1[T] collection) [0x000db] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.List`1[T].AddRange (System.Collections.Generic.IEnumerable`1[T] collection) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at RimWorld.Planet.FloatMenuMakerWorld.ChoicesAtFor (System.Int32 tile, RimWorld.Planet.Caravan caravan) [0x00032] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.CaravanExitMapUtility.ExitMapAndCreateCaravan (System.Collections.Generic.IEnumerable`1[T] pawns, RimWorld.Faction faction, System.Int32 exitFromTile, System.Int32 directionTile, System.Int32 destinationTile, System.Boolean sendMessage) [0x00173] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.CaravanFormingUtility.FormAndCreateCaravan (System.Collections.Generic.IEnumerable`1[T] pawns, RimWorld.Faction faction, System.Int32 exitFromTile, System.Int32 directionTile, System.Int32 destinationTile) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.LordJob_FormAndSendCaravan.SendCaravan () [0x00044] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.AI.Group.TransitionAction_Custom.DoAction (Verse.AI.Group.Transition trans) [0x0001c] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.AI.Group.Transition.Execute (Verse.AI.Group.Lord lord) [0x00028] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.AI.Group.Transition:Execute (Verse.AI.Group.Lord)
+Verse.AI.Group.Transition:CheckSignal (Verse.AI.Group.Lord,Verse.AI.Group.TriggerSignal)
+Verse.AI.Group.Lord:CheckTransitionOnSignal (Verse.AI.Group.TriggerSignal)
+Verse.AI.Group.Lord:ReceiveMemo (string)
+RimWorld.GatherAnimalsAndSlavesForCaravanUtility:CheckArrived (Verse.AI.Group.Lord,System.Collections.Generic.List`1<Verse.Pawn>,Verse.IntVec3,string,System.Predicate`1<Verse.Pawn>,System.Predicate`1<Verse.Pawn>)
+RimWorld.LordToil_PrepareCaravan_Leave:LordToilTick ()
+Verse.AI.Group.Lord:LordTick ()
+Verse.AI.Group.LordManager:LordManagerTick ()
+Verse.Map:MapPostTick ()
+RimThreaded.Map_Patch:MapsPostTickPrepare ()
+RimThreaded.RimThreaded:PrepareWorkLists ()
+RimThreaded.RimThreaded:ProcessTicks (RimThreaded.RimThreaded/ThreadInfo)
+RimThreaded.RimThreaded:InitializeThread (object)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart (object)
+
+Exception filling window for RimWorld.Dialog_FormCaravan: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.Widgets.ThingIconWorker (UnityEngine.Rect rect, Verse.ThingDef thingDef, UnityEngine.Texture resolvedIcon, System.Single resolvedIconAngle, System.Single scale) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Widgets.ThingIcon (UnityEngine.Rect rect, Verse.Thing thing, System.Single alpha, System.Nullable`1[T] rot) [0x00289] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableUIUtility.DrawTransferableInfo (RimWorld.Transferable trad, UnityEngine.Rect idRect, UnityEngine.Color labelColor) [0x00049] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.DoRow (UnityEngine.Rect rect, RimWorld.TransferableOneWay trad, System.Int32 index, System.Single availableMass) [0x0048a] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.FillMainRect (UnityEngine.Rect mainRect, System.Boolean& anythingChanged) [0x0018d] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.TransferableOneWayWidget.OnGUI (UnityEngine.Rect inRect, System.Boolean& anythingChanged) [0x00196] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Dialog_FormCaravan.DoWindowContents (UnityEngine.Rect inRect) [0x00263] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.Widgets:EnsureMousePositionStackEmpty ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+Exception ticking Stumpy (at (52, 0, 130)): System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.AI.Pawn_JobTracker.JobTrackerTick () [0x000cb] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.Pawn.Tick () [0x000a3] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimThreaded.TickList_Patch.NormalThingTick () [0x00025] in <823d1c7eec0147419cb33e0283ea70ea>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+RimThreaded.TickList_Patch:NormalThingTick ()
+RimThreaded.RimThreaded:ExecuteTicks ()
+RimThreaded.RimThreaded:ProcessTicks (RimThreaded.RimThreaded/ThreadInfo)
+RimThreaded.RimThreaded:InitializeThread (object)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart (object)
+
+Stumpy starting job Wait_Wander (Job_1555) from JobGiver  while already having job Wait_Wander (Job_1554) without a specific job end condition.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Warning (string)
+RimThreaded.Pawn_JobTracker_Patch:StartJob (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool)
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.StartJob_Patch1 (Verse.AI.Pawn_JobTracker,Verse.AI.Job,Verse.AI.JobCondition,Verse.AI.ThinkNode,bool,bool,Verse.ThinkTreeDef,System.Nullable`1<Verse.AI.JobTag>,bool,bool)
+RimThreaded.Pawn_JobTracker_Patch:TryFindAndStartJob (Verse.AI.Pawn_JobTracker)
+(wrapper dynamic-method) Verse.AI.Pawn_JobTracker:Verse.AI.Pawn_JobTracker.TryFindAndStartJob_Patch1 (Verse.AI.Pawn_JobTracker)
+Verse.AI.Pawn_JobTracker:JobTrackerTick ()
+Verse.Pawn:Tick ()
+RimThreaded.TickList_Patch:NormalThingTick ()
+RimThreaded.RimThreaded:ExecuteTicks ()
+RimThreaded.RimThreaded:ProcessTicks (RimThreaded.RimThreaded/ThreadInfo)
+RimThreaded.RimThreaded:InitializeThread (object)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart (object)
+
+First parameter of thread-safe function request was not an action or function
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+RimThreaded.RimThreaded:RespondToSafeFunctionRequests ()
+RimThreaded.RimThreaded:MainThreadWaitLoop (Verse.TickManager)
+RimThreaded.TickManager_Patch:DoSingleTick (Verse.TickManager)
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch1 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+Verse.Game:UpdatePlay ()
+Verse.Root_Play:Update ()
+
+Error in lord's preAction: System.InvalidCastException: Specified cast is not valid.
+  at RimThreaded.GUIStyle_Patch.CalcHeight (UnityEngine.GUIStyle __instance, System.Single& __result, UnityEngine.GUIContent content, System.Single width) [0x00066] in <823d1c7eec0147419cb33e0283ea70ea>:0 
+  at (wrapper dynamic-method) UnityEngine.GUIStyle.UnityEngine.GUIStyle.CalcHeight_Patch1(UnityEngine.GUIStyle,UnityEngine.GUIContent,single)
+  at Verse.Text.CalcHeight (System.String text, System.Single width) [0x00015] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.FloatMenuOption.SetSizeMode (Verse.FloatMenuSizeMode newSizeMode) [0x00051] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.FloatMenuOption.set_Label (System.String value) [0x00020] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.FloatMenuOption..ctor (System.String label, System.Action action, Verse.MenuOptionPriority priority, System.Action`1[T] mouseoverGuiAction, Verse.Thing revalidateClickTarget, System.Single extraPartWidth, System.Func`2[T,TResult] extraPartOnGUI, RimWorld.Planet.WorldObject revalidateWorldClickTarget, System.Boolean playSelectionSound, System.Int32 orderInPriority) [0x0001f] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.CaravanArrivalActionUtility+<GetFloatMenuOptions>d__0`1[T].MoveNext () [0x0012b] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.Site+<GetFloatMenuOptions>d__52.MoveNext () [0x000e3] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at System.Collections.Generic.List`1[T].InsertRange (System.Int32 index, System.Collections.Generic.IEnumerable`1[T] collection) [0x000db] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Collections.Generic.List`1[T].AddRange (System.Collections.Generic.IEnumerable`1[T] collection) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at RimWorld.Planet.FloatMenuMakerWorld.ChoicesAtFor (System.Int32 tile, RimWorld.Planet.Caravan caravan) [0x00032] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.CaravanExitMapUtility.ExitMapAndCreateCaravan (System.Collections.Generic.IEnumerable`1[T] pawns, RimWorld.Faction faction, System.Int32 exitFromTile, System.Int32 directionTile, System.Int32 destinationTile, System.Boolean sendMessage) [0x00173] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.Planet.CaravanFormingUtility.FormAndCreateCaravan (System.Collections.Generic.IEnumerable`1[T] pawns, RimWorld.Faction faction, System.Int32 exitFromTile, System.Int32 directionTile, System.Int32 destinationTile) [0x00000] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at RimWorld.LordJob_FormAndSendCaravan.SendCaravan () [0x00044] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.AI.Group.TransitionAction_Custom.DoAction (Verse.AI.Group.Transition trans) [0x0001c] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+  at Verse.AI.Group.Transition.Execute (Verse.AI.Group.Lord lord) [0x00028] in <cdbd0ed5089a418da09b9a259f9dbd8f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Verse.Log:Error (string)
+Verse.AI.Group.Transition:Execute (Verse.AI.Group.Lord)
+Verse.AI.Group.Transition:CheckSignal (Verse.AI.Group.Lord,Verse.AI.Group.TriggerSignal)
+Verse.AI.Group.Lord:CheckTransitionOnSignal (Verse.AI.Group.TriggerSignal)
+Verse.AI.Group.Lord:ReceiveMemo (string)
+RimWorld.GatherAnimalsAndSlavesForCaravanUtility:CheckArrived (Verse.AI.Group.Lord,System.Collections.Generic.List`1<Verse.Pawn>,Verse.IntVec3,string,System.Predicate`1<Verse.Pawn>,System.Predicate`1<Verse.Pawn>)
+RimWorld.LordToil_PrepareCaravan_Leave:LordToilTick ()
+Verse.AI.Group.Lord:LordTick ()
+Verse.AI.Group.LordManager:LordManagerTick ()
+Verse.Map:MapPostTick ()
+RimThreaded.Map_Patch:MapsPostTickPrepare ()
+RimThreaded.RimThreaded:PrepareWorkLists ()
+RimThreaded.RimThreaded:ProcessTicks (RimThreaded.RimThreaded/ThreadInfo)
+RimThreaded.RimThreaded:InitializeThread (object)
+System.Threading.ThreadHelper:ThreadStart_Context (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object)
+System.Threading.ThreadHelper:ThreadStart (object)
